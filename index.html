@@ -5,67 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PDR EUROPA - Paintless Dent Repair</title>
   <style>
-    /* Reset simplu */
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      margin: 0; padding: 0; box-sizing: border-box;
     }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #0a0f28, #1b1f38);
       color: #e0e7ff;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      display: flex; flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2rem 1rem;
     }
     header {
+      width: 100%;
+      max-width: 900px;
       background: linear-gradient(90deg, #003366, #001a4d);
-      padding: 2rem 1rem;
+      padding: 2rem;
       text-align: center;
-      color: #66ccff;
       font-size: 2.5rem;
       font-weight: 900;
       letter-spacing: 0.1em;
+      color: #66ccff;
+      border-radius: 15px;
       box-shadow: 0 4px 15px rgba(0, 102, 204, 0.5);
-      text-transform: uppercase;
       user-select: none;
+      margin-bottom: 3rem;
     }
     main {
-      flex-grow: 1;
+      width: 100%;
       max-width: 900px;
-      margin: 3rem auto;
       background: #111b3a;
       border-radius: 15px;
-      padding: 2.5rem 3rem;
+      padding: 3rem;
       box-shadow: 0 0 30px #004080aa;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
+      color: #cbd5ff;
     }
     h1 {
       color: #99ccff;
       font-weight: 700;
       font-size: 2.2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
       text-shadow: 0 0 6px #66aaff;
     }
     p {
       font-size: 1.1rem;
       line-height: 1.6;
-      color: #cbd5ff;
-      user-select: text;
+      margin-bottom: 1.5rem;
     }
     .contact {
       background: #002244;
-      padding: 1.2rem 2rem;
+      padding: 1.5rem 2rem;
       border-radius: 12px;
       box-shadow: 0 0 20px #003366bb;
       font-weight: 600;
       color: #a0c4ff;
       display: flex;
       flex-direction: column;
-      gap: 0.7rem;
+      gap: 1rem;
       font-size: 1.1rem;
     }
     .contact p strong {
@@ -73,22 +71,26 @@
       user-select: none;
     }
     footer {
+      margin-top: 3rem;
+      width: 100%;
+      max-width: 900px;
       text-align: center;
-      padding: 1rem;
+      padding: 1rem 0;
       background: #001529;
       color: #445566;
       font-size: 0.9rem;
       letter-spacing: 0.05em;
+      border-radius: 0 0 15px 15px;
       user-select: none;
     }
-    /* Responsive */
     @media (max-width: 600px) {
-      main {
-        margin: 2rem 1rem;
-        padding: 1.5rem 1.8rem;
-      }
       header {
         font-size: 1.8rem;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      main {
+        padding: 2rem;
       }
       h1 {
         font-size: 1.7rem;
@@ -100,9 +102,7 @@
   <header>PDR EUROPA</header>
   <main>
     <h1>Reparații fără vopsire (Paintless Dent Repair)</h1>
-    <p>
-      Suntem o firmă mică din Iași specializată în repararea micilor lovituri ale caroseriei auto fără vopsire, rapid și profesionist. Ne asigurăm că mașina ta își păstrează aspectul impecabil fără costuri mari.
-    </p>
+    <p>Suntem o firmă mică din Iași specializată în repararea micilor lovituri ale caroseriei auto fără vopsire, rapid și profesionist. Ne asigurăm că mașina ta își păstrează aspectul impecabil fără costuri mari.</p>
     <div class="contact">
       <p><strong>Adresă:</strong> Strada Ștefan Cortez, Iași</p>
       <p><strong>Telefon:</strong> 0742 670 703</p>
